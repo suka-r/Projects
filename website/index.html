@@ -17,10 +17,11 @@
     <header>
       <!-- doesnt lead anywhere, it just looks good -->
       <ul class="breadcrumbs">
-        <li><a href="#"><i></i>Home</a></li>
-        <li><a href="#"><i ></i>New</a></li>
-        <li ><a href="#"><i></i>shop</a></li>
-        <li><a href="#"><i></i>sale</a></li>
+        <img src="./img/logo2.jpg"  style="width: 15% ; height: 15%; float: left; padding-right: 0%;padding-right: 0%;">
+        <li><a href="#"><i>Home</i></a></li>
+        <li><a href="#"><i>Shop</i></a></li>
+        <li><a href="#"><i>Cart</i></a></li>
+        <li><a href="#"><i>About</i></a></li>
       </ul>
       <h1><img src="./img/logo.png"></h1>
     </header>
@@ -48,8 +49,8 @@
       <p>©Salma Production, 2023</p>
       <p>Description & Name generated on <a href="https://ahrefs.com/">Ahrefs</a> 
         <br/> Website layout: <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float"> W2School </a> 
-        <br> Sidebar CSS:<a href="https://jsfiddle.net/QDCGv//">JSFiddle<a> 
-        <br> Logo generated on <a href="https://looka.com/logo-maker/?gad_source=1&gclid=CjwKCAiAqY6tBhAtEiwAHeRopegj6z7RbtPvqoBlydTBJ2kMjfQ7ncJ4D__ER7VhwsikBI9pRTg_KRoC0ZgQAvD_BwE">Looka<a> </p>
+        <br> Sidebar CSS: <a href="https://jsfiddle.net/QDCGv/">JSFiddle</a>
+        <br> Logo generated on <a href="https://looka.com/logo-maker/">Looka</a>
     </footer>
 
     <div id="overlay">
@@ -66,7 +67,7 @@
     <script>
         const mainDiv = document.getElementById("main-div");
         var overlay = document.getElementById("overlay");
-        var counrter = 0;
+        var counter = 0;
 
         products.forEach((product, index) => {
             if (index % 3 === 0) {
